@@ -350,7 +350,7 @@ profile-photo .img{
   overflow: hidden;
   overflow-y: auto;
   width: 100%;
-  height: 90lvb;
+  height: 100lvb;
   white-space: nowrap;
 }
 
@@ -603,7 +603,35 @@ profile-photo .img{
   .project{
     flex-basis: 100%;
     margin-bottom: 30px;
+    width: fit-content;
+    position: relative;
   }
 
+  .left-project {
+    flex-direction: column;
+    margin-right: 0%; /* Adjust the spacing between projects */
+  }
+  
+  .right-project {
+    flex-direction: column;
+    margin-left: 0%; /* Adjust the spacing between projects */
+  }
+
+  .project-info{
+    width: 100%;
+  }
+  
+  .project-info a{
+    position: static;
+    bottom: 0%;
+  }
+  .project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    width: 100%;
+  }
 }
 
