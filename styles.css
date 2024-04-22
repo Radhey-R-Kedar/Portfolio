@@ -365,7 +365,7 @@ profile-photo .img{
     border: 2px solid #e5e5e5;
     border-radius: 10px;
     width: 90%;
-    height: 100%;
+    height: auto;
     position: relative;
     padding: 20px;
     justify-content: space-between;
@@ -377,12 +377,12 @@ profile-photo .img{
 
 .left-project {
   flex-direction: row-reverse;
-  margin-right: 20%; /* Adjust the spacing between projects */
+  margin-right: 10%; /* Adjust the spacing between projects */
 }
 
 .right-project {
   flex-direction: row;
-  margin-left: 20%; /* Adjust the spacing between projects */
+  margin-left: 10%; /* Adjust the spacing between projects */
 }
 
 .project-info{
