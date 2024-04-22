@@ -364,7 +364,8 @@ profile-photo .img{
     color: #e5e5e5;
     border: 2px solid #e5e5e5;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
+    height: 100%;
     position: relative;
     padding: 20px;
     justify-content: space-between;
@@ -392,10 +393,7 @@ profile-photo .img{
   position: relative;
 }
 
-.project-info a{
-  position: absolute;
-  bottom: 0%;
-}
+
 .project-details{
   display: flex;
   flex-direction: column;
@@ -403,6 +401,7 @@ profile-photo .img{
   justify-content: center;
   padding-left: 10px;
   width: 50%;
+  height: 100%;
 }
 
 .project i{
@@ -417,7 +416,7 @@ profile-photo .img{
 .project-github-link{
   font-size: 26px;
   color: #e5e5e5;
-  margin-top: 10px;
+  margin: 10%;
 }
 .project h4{
   font-size: 26px;
